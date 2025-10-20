@@ -9,6 +9,12 @@ class Game:
         return 0, ['A', 'B', 'C']  # P1 starts
 
     def to_move(self, state: State) -> int:
+        """Returns the player whose turn it is.
+         0 for P1, 1 for P2.
+         
+         
+        
+        """
         player, _ = state
         return player
 
